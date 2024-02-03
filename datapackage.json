@@ -1,0 +1,163 @@
+{
+  "accrual_periodicity": "biweekly",
+  "additional_limitations": "",
+  "citation": "Department of Health Care Access and Information, Hospital Building Data",
+  "contact_email": "dataandreports@hcai.ca.gov",
+  "data_collection_tool": "",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "Provides the basic information for general acute care hospital buildings such as height, number of stories, the building code used to design the building and year it was completed. The data is sorted by counties and cities.  Structural Performance Categories (SPC ratings) are also provided.  SPC ratings range from 1 to 5 with SPC 1 assigned to buildings that may be at risk of collapse during a strong earthquake and SPC 5 assigned to buildings reasonably capable of providing services to the public following a strong earthquake. Where SPC ratings have not been confirmed by the Department of Health Care Access and Information (HCAI) yet, the rating index is followed by 's'. A URL for the building webpage in HCAI/FDD eServices Portal is also provided to view projects related to any building.",
+  "geo_coverage": "California, data is categorized by county, city",
+  "geographic_granularity": "location point",
+  "keywords": [
+    "building code year",
+    "building height",
+    "extension requests status",
+    "hospital buildings",
+    "nonstructural performance category",
+    "npc",
+    "seismic safety",
+    "spc",
+    "structural performance category",
+    "structural retrofit",
+    "year completed"
+  ],
+  "limitations": "Limitations",
+  "name": "hospital-building-data",
+  "program_web_page": "https://hcai.ca.gov/construction-finance/seismic-compliance-and-safety/program-overview/",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "Provides the basic information for general acute care hospital buildings such as height, number of stories, the building code used to design the building and year it was completed. The data is sorted by counties and cities.  Structural Performance Categories (SPC ratings) are also provided.  SPC ratings range from 1 to 5 with SPC 1 assigned to buildings that may be at risk of collapse during a strong earthquake and SPC 5 assigned to buildings reasonably capable of providing services to the public following a strong earthquake. Where SPC ratings have not been confirmed by the Department of Health Care Access and Information (HCAI) yet, the rating index is followed by 's'. A URL for the building webpage in HCAI/FDD eServices Portal is also provided to view projects related to any building.",
+      "format": "CSV",
+      "hash": "2c96e803fc4cc877663dfc081bb52803",
+      "name": "hospital-building-data-csv",
+      "path": "hospital-building-data-.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Code",
+            "type": "string"
+          },
+          {
+            "name": "Perm ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility Name",
+            "type": "string"
+          },
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "Building Nbr",
+            "type": "string"
+          },
+          {
+            "name": "Building Name",
+            "type": "string"
+          },
+          {
+            "name": "Building Status",
+            "type": "string"
+          },
+          {
+            "name": "SPC Rating *",
+            "type": "string"
+          },
+          {
+            "name": "Building URL",
+            "type": "string"
+          },
+          {
+            "name": "Height (ft)",
+            "type": "string"
+          },
+          {
+            "name": "Stories",
+            "type": "string"
+          },
+          {
+            "name": "Building Code",
+            "type": "string"
+          },
+          {
+            "name": "Building Code Year",
+            "type": "string"
+          },
+          {
+            "name": "Year Completed",
+            "type": "string"
+          },
+          {
+            "name": "AB 1882 Notice",
+            "type": "string"
+          },
+          {
+            "name": "Latitude",
+            "type": "string"
+          },
+          {
+            "name": "Longitude",
+            "type": "string"
+          },
+          {
+            "name": "Count",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/dab37323-5b23-492e-9328-3bcc93bd1335/resource/d97adf28-ebaf-4204-a29e-bb6bdb7f96b9/download/ca-oshpd-gachospital-hospitalbuildingdata-09212023.csv",
+          "title": "Hospital Building Data (CSV)"
+        }
+      ],
+      "title": "Hospital Building Data (CSV)"
+    },
+    {
+      "description": "Provides the basic information for general acute care hospital buildings such as height, number of stories, the building code used to design the building and year it was completed. The data is sorted by counties and cities. Structural Performance Categories (SPC ratings) are also provided. SPC ratings range from 1 to 5 with SPC 1 assigned to buildings that may be at risk of collapse during a strong earthquake and SPC 5 assigned to buildings reasonably capable of providing services to the public following a strong earthquake. Where SPC ratings have not been confirmed by the Department of Health Care Access and Information (HCAI) yet, the rating index is followed by 's'. A URL for the building webpage in HCAI/FDD eServices Portal is also provided to view projects related to any building.",
+      "format": "CSV",
+      "hash": "a965962e76ac2d2580d3ca358ebb961a",
+      "name": "data-dictionary-hospital-building-data",
+      "path": "data-dictionary-hospital-building-data.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Column",
+            "type": "string"
+          },
+          {
+            "name": "Type",
+            "type": "string"
+          },
+          {
+            "name": "Label",
+            "type": "string"
+          },
+          {
+            "name": "Description",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/dab37323-5b23-492e-9328-3bcc93bd1335/resource/cefc10e5-5071-4ca4-8b03-2249caf0d294/download/datadictionary-hospital-building-data.csv",
+          "title": "Data Dictionary - Hospital Building Data"
+        }
+      ],
+      "title": "Data Dictionary - Hospital Building Data"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Department of Health Care Access and Information/Facilities Development Division"
+    }
+  ],
+  "temporal_coverage": "Point of time data ",
+  "title": "Hospital Building Data"
+}
